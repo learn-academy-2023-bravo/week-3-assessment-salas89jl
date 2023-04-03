@@ -37,17 +37,21 @@ describe ("fibCount", () => {
 
 
 // b) Create the function that makes the test pass.
-//Pseudo Code
-//Create a fuction called fibCount
-//Input: a number
-//Output: an array of fibonacci sequece
-//Declare a variable called fibCount to store an array containing part of the Fibonacci sequence.
-//In order for the function engage more outputs, I think a for loop will be needed in order to iterate or in other words
-// What if is Fib. Sequence?:  1 + 1 = 2 
-//                             1 + 2 = 3
-//                             2 + 3 = 5
-//                             3 + 5 = 8
-//                             5 + 8 = 13
+//  Pseudo Code
+//  Create a fuction called fibCount
+//  Input: a number
+//  Output: an array of fibonacci sequece
+//  Declare a variable called fibArr to store an array containing part of the Fibonacci sequence.
+//  In order for the function engage more outputs, I think a for loop will be needed in order to iterate or in other words
+//  Pass a condition that if num is less then or equal to 0 then the return is [0]
+//  Pass a condition that if num is equal to 1 then return [1]
+//  
+//    What if is Fib. Sequence?:  0 + 1 = 1
+//                                1 + 1 = 2 
+//                                1 + 2 = 3
+//                                2 + 3 = 5
+//                                3 + 5 = 8
+//                                5 + 8 = 13
 // 
 
 const fibCount = (num) => {
