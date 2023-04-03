@@ -6,6 +6,12 @@
 
 <!-- HINT: Check the console in the browser developer tools for errors. The lines numbers may not match up exactly with the line numbers in your text editor. -->
 
+<!-- 
+  Fix three bugs
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -65,11 +71,15 @@
         // No need to change anything ABOVE this line ^
 
         return (
-          <h1>Draw a Card</h1>
-          <button onClick={}>
+          // Missing fragmented tags because diferrent type tags are being used.
+          // The button to for triggering the method called "drawCard" was missing; inserted {drawCard} to resolve the issue
+          // The button property for the {shuffle} method was typed "onclick" and was changed to "onClick".
+          <>
+          <h1>Draw a Card</h1> 
+          <button onClick={drawCard}>
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+          <button onClick={shuffle}>
             Return Cards and Shuffle Deck
           </button>
           <div style={handStyles}>
@@ -81,6 +91,7 @@
               )
             })}
           </div>
+          </>
         )
       }
 
