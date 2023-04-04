@@ -24,9 +24,12 @@ Yarn is an open-source project manager that Facebook introduced with the collabo
 
 3. What is a React component?
 
-Your answer: A React component is a stand-alone function that developers can use to store behavioral code for specific instances. The use of components compartmentalizes the code inside of a web application. This allows the rendering process to render specific features/items and render other components when specific user interactions occur. If I wanted to create a UI web application use a chat box or a like button feature. I could create a specific component for each of the features.
+Your answer: 
+A component in React allows the dedication of specific functions to perform specific operations. I like to compare React components to engine components since an engine is made up of a series of electrical/mechanical components that allows the engine to run. Like in React, an engine component, if designed correctly, will allow the engine to run more effectively. Additionally, it may allow the developer/mechanic to troubleshoot and repair specific components more quickly.
 
 Researched answer:
+A React component is a stand-alone function that developers can use to store behavioral code for specific instances. The use of components compartmentalizes the code inside of a web application. This allows the rendering process to render specific features/items and render other components when specific user interactions occur. If I wanted to create a UI web application use a chat box or a like button feature. I could create a specific component for each of the features.
+
 
 4. What is the difference between state values and props in React?
 
